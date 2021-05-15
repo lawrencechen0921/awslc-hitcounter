@@ -2,7 +2,7 @@
 
 In this chapter we will define a new construct called HitCounter. This construct can be attached to any Lambda function that’s used as an API Gateway backend, and it will count how many requests were issued to each URL path. It will store this in a DynamoDB table.
 
-![Uploading Screen Shot 2021-05-15 at 11.20.44 PM.png…]()
+![tutorial-part2](https://user-images.githubusercontent.com/50194219/118368181-49283c80-b5d4-11eb-9cc3-8f1767d31eb0.png)
 
 
 ## Useful commands
