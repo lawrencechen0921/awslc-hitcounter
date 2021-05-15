@@ -1,9 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# Welcome to your CDK Workshop project!
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`AwslcHitcounterStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+In this chapter we will define a new construct called HitCounter. This construct can be attached to any Lambda function that’s used as an API Gateway backend, and it will count how many requests were issued to each URL path. It will store this in a DynamoDB table.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+<img width="748" alt="Screen Shot 2021-05-15 at 10 21 40 PM" src="https://user-images.githubusercontent.com/50194219/118364654-edf24c00-b5cb-11eb-9b2d-4bcf15971634.png">
 
 ## Useful commands
 
